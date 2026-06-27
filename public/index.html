@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex Kaindoy // Technical Problem Solver</title>
-    <meta name="description" content="Portfolio of Alex Kaindoy, a technical problem solver focused on process documentation, full-stack development, and digital prototyping.">
+    <title>Alex Kaindoy // Full-Stack Developer & Technical Problem Solver</title>
+    <meta name="description" content="Portfolio of Alex Kaindoy — BSIT graduate, full-stack Laravel developer, and technical problem solver with experience in process documentation, PDF automation, and real-time systems.">
     <meta name="theme-color" content="#05080a">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -198,9 +198,9 @@
                         <p id="typed-role" class="text-term-cyan text-lg sm:text-xl my-2 cursor min-h-[1.75rem]"></p>
                         <p class="text-term-muted mt-4"><span class="text-term-green">$</span> cat summary.md</p>
                         <p class="text-term-text/90 my-2 max-w-2xl">
-                            A dedicated Problem Solver focused on developing elegant, efficient technical solutions to
-                            complex organizational and digital challenges. Process documentation, full-stack development,
-                            and digital prototyping.
+                            BSIT graduate and hireable full-stack developer building with Laravel, PHP, MySQL, and Blade.
+                            Experienced in process documentation, PDF automation, real-time WebSocket systems, and
+                            technical support — currently open to new opportunities.
                         </p>
 
                         <div class="flex flex-col sm:flex-row gap-4 mt-8">
@@ -239,9 +239,9 @@
                         <p class="text-term-green text-lg font-semibold border-l-2 border-term-green pl-4">
                             "Bridging complex technical requirements with clear, tangible user benefits is my primary goal."
                         </p>
-                        <p>Motivated professional with hands-on experience in technical analysis, process documentation, and user support. I excel at deconstructing organizational challenges into efficient technical blueprints.</p>
-                        <p>Possesses foundational programming knowledge in languages like C++ and full-stack development using environments such as Laravel, XAMPP, and MySQL. This blend of front-end and back-end understanding allows for comprehensive problem-solving.</p>
-                        <p>Committed to optimizing technical workflows, integrating disparate systems, and delivering effective, user-centric solutions that drive measurable improvements.</p>
+                        <p>BSIT graduate (Major in Programming) from Southern Leyte State University — Tomas Oppus Campus. I build full-stack web applications using Laravel 12, PHP 8.3, MySQL, and Blade, and I am actively hireable.</p>
+                        <p>My GitHub (<span class="text-term-green">@jralexa</span>) shows real shipped work: a PDF document generation system, a payment gateway, a real-time case management system, and early C++ fundamentals study. I collaborate on open-source tooling such as ThreatScanner and a multi-domain XAMPP manager.</p>
+                        <p>Previously supported Oracle Health Insurance (OHI) system documentation at Black Box (for Maxicare) and ran SEO and CMS operations at CDL Innovative IT Solutions. I thrive at connecting backend logic to clear, usable interfaces.</p>
                     </div>
                 </div>
             </div>
@@ -288,64 +288,106 @@
         <section id="projects" class="py-20 px-4">
             <div class="max-w-7xl mx-auto">
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-term-green mb-1">// technical_demonstrations</h2>
-                <p class="text-term-muted mb-12 text-sm">/* scalable logic, real-time data, full-stack development */</p>
+                <p class="text-term-muted mb-12 text-sm">/* real shipped code — github.com/jralexa */</p>
 
                 <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
+                    <!-- Project 1: GENERATE-PDF-DOCUMENT -->
                     <div class="reveal group bg-term-panel/80 rounded-lg border border-term-border overflow-hidden hover:border-term-green/60 transition duration-300">
-                        <img src="/casa.png" alt="Case Management System"
+                        <img src="/casa.png" alt="PDF Document Generator screenshot"
                             class="w-full h-48 object-cover border-b border-term-border opacity-90 group-hover:opacity-100 transition">
                         <div class="p-6">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="text-xs text-term-muted border border-term-border px-2 py-0.5 rounded">Laravel 12 / PHP 8.3</span>
+                            </div>
+                            <h3 class="text-lg font-bold text-term-green mb-2">Employee PDF Document Generator</h3>
+                            <p class="text-term-text/70 text-sm mb-4">Full-stack Laravel 12 app for managing employee documents. Users register, create records in MySQL, and generate downloadable PDFs from a fillable template via PDFTK. Includes Laravel Breeze auth, CRUD, and automated queue-based PDF processing.</p>
+                            <div class="flex flex-wrap gap-2 mb-5 text-xs">
+                                <span class="border border-term-green/40 text-term-green px-2 py-1 rounded">Laravel 12</span>
+                                <span class="border border-term-cyan/40 text-term-cyan px-2 py-1 rounded">PHP 8.3</span>
+                                <span class="border border-term-muted/40 text-term-muted px-2 py-1 rounded">MySQL</span>
+                                <span class="border border-term-muted/40 text-term-muted px-2 py-1 rounded">PDFTK</span>
+                                <span class="border border-term-muted/40 text-term-muted px-2 py-1 rounded">Tailwind CSS</span>
+                            </div>
+                            <a href="https://github.com/jralexa/GENERATE-PDF-DOCUMENT" target="_blank" rel="noopener noreferrer"
+                                class="text-term-green hover:text-term-cyan inline-flex items-center text-sm font-semibold transition group/link">
+                                git clone GENERATE-PDF-DOCUMENT
+                                <span class="ml-2 transition-transform group-hover/link:translate-x-1">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Payment Gateway -->
+                    <div class="reveal group bg-term-panel/80 rounded-lg border border-term-border overflow-hidden hover:border-term-green/60 transition duration-300">
+                        <img src="/event.png" alt="Payment Gateway screenshot"
+                            class="w-full h-48 object-cover border-b border-term-border opacity-90 group-hover:opacity-100 transition">
+                        <div class="p-6">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="text-xs text-term-muted border border-term-border px-2 py-0.5 rounded">Laravel / Blade</span>
+                            </div>
+                            <h3 class="text-lg font-bold text-term-green mb-2">Payment Gateway Integration</h3>
+                            <p class="text-term-text/70 text-sm mb-4">Laravel and Blade application integrating a payment gateway flow. Handles transaction routing, form submission, and payment state management within a PHP/MySQL backend architecture.</p>
+                            <div class="flex flex-wrap gap-2 mb-5 text-xs">
+                                <span class="border border-term-green/40 text-term-green px-2 py-1 rounded">Laravel</span>
+                                <span class="border border-term-cyan/40 text-term-cyan px-2 py-1 rounded">Blade</span>
+                                <span class="border border-term-muted/40 text-term-muted px-2 py-1 rounded">PHP</span>
+                                <span class="border border-term-muted/40 text-term-muted px-2 py-1 rounded">MySQL</span>
+                            </div>
+                            <a href="https://github.com/jralexa/paymentgateway" target="_blank" rel="noopener noreferrer"
+                                class="text-term-green hover:text-term-cyan inline-flex items-center text-sm font-semibold transition group/link">
+                                git clone paymentgateway
+                                <span class="ml-2 transition-transform group-hover/link:translate-x-1">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Case Management System -->
+                    <div class="reveal group bg-term-panel/80 rounded-lg border border-term-border overflow-hidden hover:border-term-green/60 transition duration-300">
+                        <img src="/ss.jpg" alt="Social Worker Case Management System screenshot"
+                            class="w-full h-48 object-cover border-b border-term-border opacity-90 group-hover:opacity-100 transition">
+                        <div class="p-6">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="text-xs text-term-muted border border-term-border px-2 py-0.5 rounded">Laravel / WebSocket</span>
+                            </div>
                             <h3 class="text-lg font-bold text-term-green mb-2">Social Worker Case Management System</h3>
-                            <p class="text-term-text/70 text-sm mb-4">A full-stack system built for Casa Miani Sto. Nino, centralizing case data, documentation, and real-time worker communication.</p>
+                            <p class="text-term-text/70 text-sm mb-4">A full-stack real-time system built for Casa Miani Sto. Nino. Centralizes case data and documentation for social workers, with live communication via WebSockets and integrated document editing via ONLYOFFICE.</p>
                             <div class="flex flex-wrap gap-2 mb-5 text-xs">
                                 <span class="border border-term-green/40 text-term-green px-2 py-1 rounded">Laravel</span>
                                 <span class="border border-term-cyan/40 text-term-cyan px-2 py-1 rounded">WebSocket</span>
+                                <span class="border border-term-muted/40 text-term-muted px-2 py-1 rounded">MySQL</span>
                                 <span class="border border-term-muted/40 text-term-muted px-2 py-1 rounded">ONLYOFFICE</span>
                             </div>
-                            <a href="#" class="text-term-green hover:text-term-cyan inline-flex items-center text-sm font-semibold transition">
-                                cat overview.md
-                                <span class="ml-2 transition-transform group-hover:translate-x-1">&rarr;</span>
+                            <a href="https://github.com/jralexa" target="_blank" rel="noopener noreferrer"
+                                class="text-term-green hover:text-term-cyan inline-flex items-center text-sm font-semibold transition group/link">
+                                view on github
+                                <span class="ml-2 transition-transform group-hover/link:translate-x-1">&rarr;</span>
                             </a>
                         </div>
                     </div>
 
-                    <div class="reveal group bg-term-panel/80 rounded-lg border border-term-border overflow-hidden hover:border-term-green/60 transition duration-300">
-                        <img src="/event.png" alt="Event Tabulation System"
-                            class="w-full h-48 object-cover border-b border-term-border opacity-90 group-hover:opacity-100 transition">
-                        <div class="p-6">
-                            <h3 class="text-lg font-bold text-term-green mb-2">Real-Time Event Tabulation System</h3>
-                            <p class="text-term-text/70 text-sm mb-4">Designed for pageants to handle concurrent score entry, secure data aggregation, and instant result notification via WebSocket.</p>
-                            <div class="flex flex-wrap gap-2 mb-5 text-xs">
-                                <span class="border border-term-green/40 text-term-green px-2 py-1 rounded">Laravel/Blade</span>
-                                <span class="border border-term-cyan/40 text-term-cyan px-2 py-1 rounded">WebSockets</span>
-                                <span class="border border-term-muted/40 text-term-muted px-2 py-1 rounded">Data Logic</span>
+                </div>
+
+                <!-- Open Source Contributions -->
+                <div class="reveal mt-12 bg-term-panel/60 border border-term-border rounded-lg p-6">
+                    <h3 class="text-term-cyan font-bold mb-4 text-sm">&gt; open_source_contributions</h3>
+                    <div class="grid sm:grid-cols-2 gap-4 text-sm">
+                        <a href="https://github.com/bryanjaybodino/ThreatScanner" target="_blank" rel="noopener noreferrer"
+                            class="flex items-start gap-3 p-4 rounded border border-term-border hover:border-term-cyan/50 hover:bg-term-bg/40 transition group/oc">
+                            <span class="text-term-cyan text-lg leading-none mt-0.5">&gt;</span>
+                            <div>
+                                <p class="text-term-cyan font-semibold group-hover/oc:underline">ThreatScanner</p>
+                                <p class="text-term-muted text-xs mt-1">Security threat scanning tool — active contributor. PHP-based, collaborating with bryanjaybodino.</p>
                             </div>
-                            <a href="#" class="text-term-green hover:text-term-cyan inline-flex items-center text-sm font-semibold transition">
-                                cat architecture.md
-                                <span class="ml-2 transition-transform group-hover:translate-x-1">&rarr;</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="reveal group bg-term-panel/80 rounded-lg border border-term-border overflow-hidden hover:border-term-green/60 transition duration-300">
-                        <img src="/ss.jpg" alt="Process Improvement Tool"
-                            class="w-full h-48 object-cover border-b border-term-border opacity-90 group-hover:opacity-100 transition">
-                        <div class="p-6">
-                            <h3 class="text-lg font-bold text-term-green mb-2">Process Improvement Scripts</h3>
-                            <p class="text-term-text/70 text-sm mb-4">Demonstrating foundational programming logic and automation capabilities for IT or data processing tasks using pure logic.</p>
-                            <div class="flex flex-wrap gap-2 mb-5 text-xs">
-                                <span class="border border-term-green/40 text-term-green px-2 py-1 rounded">C++</span>
-                                <span class="border border-term-cyan/40 text-term-cyan px-2 py-1 rounded">System Logic</span>
-                                <span class="border border-term-muted/40 text-term-muted px-2 py-1 rounded">Automation</span>
+                        </a>
+                        <a href="https://github.com/amirandev/Xampp-Multidomain-Manager-Windows" target="_blank" rel="noopener noreferrer"
+                            class="flex items-start gap-3 p-4 rounded border border-term-border hover:border-term-cyan/50 hover:bg-term-bg/40 transition group/oc">
+                            <span class="text-term-cyan text-lg leading-none mt-0.5">&gt;</span>
+                            <div>
+                                <p class="text-term-cyan font-semibold group-hover/oc:underline">XAMPP Multidomain Manager</p>
+                                <p class="text-term-muted text-xs mt-1">Windows XAMPP virtual host manager — contributor. Developer tooling for local multi-domain PHP environments.</p>
                             </div>
-                            <a href="#" class="text-term-green hover:text-term-cyan inline-flex items-center text-sm font-semibold transition">
-                                cat snippet.cpp
-                                <span class="ml-2 transition-transform group-hover:translate-x-1">&rarr;</span>
-                            </a>
-                        </div>
+                        </a>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -358,35 +400,43 @@
 
                 <div class="max-w-5xl mx-auto space-y-10">
                     <div class="reveal">
-                        <h3 class="text-term-green font-bold mb-4">&gt; core_technical_stack</h3>
+                        <h3 class="text-term-green font-bold mb-4">&gt; languages_and_frameworks</h3>
                         <div class="flex flex-wrap gap-3 text-sm">
-                            <span class="bg-term-panel border border-term-green/50 text-term-text px-4 py-2 rounded hover:border-term-green transition">Laravel (PHP)</span>
-                            <span class="bg-term-panel border border-term-green/50 text-term-text px-4 py-2 rounded hover:border-term-green transition">MySQL Database</span>
+                            <span class="bg-term-panel border border-term-green/50 text-term-text px-4 py-2 rounded hover:border-term-green transition">PHP 8.3</span>
+                            <span class="bg-term-panel border border-term-green/50 text-term-text px-4 py-2 rounded hover:border-term-green transition">Laravel 12</span>
+                            <span class="bg-term-panel border border-term-green/50 text-term-text px-4 py-2 rounded hover:border-term-green transition">Blade Templating</span>
                             <span class="bg-term-panel border border-term-green/50 text-term-text px-4 py-2 rounded hover:border-term-green transition">HTML5 / CSS3</span>
                             <span class="bg-term-panel border border-term-green/50 text-term-text px-4 py-2 rounded hover:border-term-green transition">JavaScript</span>
-                            <span class="bg-term-panel border border-term-green/50 text-term-text px-4 py-2 rounded hover:border-term-green transition">C++ Fundamentals</span>
-                            <span class="bg-term-panel border border-term-green/50 text-term-text px-4 py-2 rounded hover:border-term-green transition">CMS (WordPress)</span>
+                            <span class="bg-term-panel border border-term-green/50 text-term-text px-4 py-2 rounded hover:border-term-green transition">Tailwind CSS</span>
+                            <span class="bg-term-panel border border-term-green/50 text-term-text px-4 py-2 rounded hover:border-term-green transition">C++ (Fundamentals)</span>
                         </div>
                     </div>
 
                     <div class="reveal">
-                        <h3 class="text-term-cyan font-bold mb-4">&gt; logic_and_architecture</h3>
+                        <h3 class="text-term-cyan font-bold mb-4">&gt; backend_and_infrastructure</h3>
                         <div class="flex flex-wrap gap-3 text-sm">
-                            <span class="bg-term-panel border border-term-cyan/50 text-term-cyan px-4 py-2 rounded hover:border-term-cyan transition">Real-Time Systems (WebSockets)</span>
-                            <span class="bg-term-panel border border-term-cyan/50 text-term-cyan px-4 py-2 rounded hover:border-term-cyan transition">Third-Party Integration</span>
-                            <span class="bg-term-panel border border-term-cyan/50 text-term-cyan px-4 py-2 rounded hover:border-term-cyan transition">UI/UX Implementation</span>
-                            <span class="bg-term-panel border border-term-cyan/50 text-term-cyan px-4 py-2 rounded hover:border-term-cyan transition">Git &amp; Version Control</span>
-                            <span class="bg-term-panel border border-term-cyan/50 text-term-cyan px-4 py-2 rounded hover:border-term-cyan transition">Data Modeling &amp; Querying</span>
+                            <span class="bg-term-panel border border-term-cyan/50 text-term-cyan px-4 py-2 rounded hover:border-term-cyan transition">MySQL</span>
+                            <span class="bg-term-panel border border-term-cyan/50 text-term-cyan px-4 py-2 rounded hover:border-term-cyan transition">Laravel Breeze Auth</span>
+                            <span class="bg-term-panel border border-term-cyan/50 text-term-cyan px-4 py-2 rounded hover:border-term-cyan transition">Real-Time WebSockets</span>
+                            <span class="bg-term-panel border border-term-cyan/50 text-term-cyan px-4 py-2 rounded hover:border-term-cyan transition">PDFTK (PDF Automation)</span>
+                            <span class="bg-term-panel border border-term-cyan/50 text-term-cyan px-4 py-2 rounded hover:border-term-cyan transition">Vite + npm</span>
+                            <span class="bg-term-panel border border-term-cyan/50 text-term-cyan px-4 py-2 rounded hover:border-term-cyan transition">XAMPP / Local Dev</span>
+                            <span class="bg-term-panel border border-term-cyan/50 text-term-cyan px-4 py-2 rounded hover:border-term-cyan transition">Git &amp; GitHub</span>
+                            <span class="bg-term-panel border border-term-cyan/50 text-term-cyan px-4 py-2 rounded hover:border-term-cyan transition">Payment Gateway Integration</span>
                         </div>
                     </div>
 
                     <div class="reveal">
-                        <h3 class="text-term-muted font-bold mb-4">&gt; process_and_business</h3>
+                        <h3 class="text-term-muted font-bold mb-4">&gt; tools_and_platforms</h3>
                         <div class="flex flex-wrap gap-3 text-sm">
-                            <span class="bg-term-panel border border-term-muted/50 text-term-muted px-4 py-2 rounded hover:border-term-text transition">Process Documentation</span>
-                            <span class="bg-term-panel border border-term-muted/50 text-term-muted px-4 py-2 rounded hover:border-term-text transition">Business Process Analysis</span>
+                            <span class="bg-term-panel border border-term-muted/50 text-term-muted px-4 py-2 rounded hover:border-term-text transition">Oracle Health Insurance (OHI)</span>
+                            <span class="bg-term-panel border border-term-muted/50 text-term-muted px-4 py-2 rounded hover:border-term-text transition">ONLYOFFICE Integration</span>
+                            <span class="bg-term-panel border border-term-muted/50 text-term-muted px-4 py-2 rounded hover:border-term-text transition">WordPress / MyRealPage CMS</span>
+                            <span class="bg-term-panel border border-term-muted/50 text-term-muted px-4 py-2 rounded hover:border-term-text transition">Google Search Console</span>
                             <span class="bg-term-panel border border-term-muted/50 text-term-muted px-4 py-2 rounded hover:border-term-text transition">SEO &amp; Web Analytics</span>
-                            <span class="bg-term-panel border border-term-muted/50 text-term-muted px-4 py-2 rounded hover:border-term-text transition">Technical Troubleshooting</span>
+                            <span class="bg-term-panel border border-term-muted/50 text-term-muted px-4 py-2 rounded hover:border-term-text transition">Process Documentation</span>
+                            <span class="bg-term-panel border border-term-muted/50 text-term-muted px-4 py-2 rounded hover:border-term-text transition">L1/L2 Technical Support</span>
+                            <span class="bg-term-panel border border-term-muted/50 text-term-muted px-4 py-2 rounded hover:border-term-text transition">Vercel Deployment</span>
                         </div>
                     </div>
                 </div>
@@ -399,14 +449,42 @@
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-term-green mb-1">// education</h2>
                 <p class="text-term-muted mb-12 text-sm">/* academic foundation &amp; certifications */</p>
 
-                <div class="max-w-4xl mx-auto">
+                <div class="max-w-4xl mx-auto space-y-6">
                     <div class="reveal bg-term-panel/80 p-7 rounded-lg border border-term-border hover:border-term-green/60 transition duration-300">
                         <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2">
                             <h3 class="text-xl font-bold text-term-green">&gt; BSIT — Major in Programming</h3>
                             <span class="text-xs text-term-muted">[ 2020 - 2024 ]</span>
                         </div>
-                        <p class="text-term-cyan font-semibold mb-1">Southern Leyte State University — Tomas Oppus Campus</p>
-                        <p class="text-term-text/70 text-sm">Focus on core programming principles, software development lifecycle, and database management.</p>
+                        <p class="text-term-cyan font-semibold mb-3">Southern Leyte State University — Tomas Oppus Campus</p>
+                        <ul class="text-term-text/70 text-sm space-y-2">
+                            <li><span class="text-term-green">-</span> Bachelor of Science in Information Technology, Major in Programming</li>
+                            <li><span class="text-term-green">-</span> Core coursework: software development lifecycle, data structures, database management, OOP</li>
+                            <li><span class="text-term-green">-</span> Capstone: Social Worker Case Management System with real-time features (Laravel, WebSocket, ONLYOFFICE)</li>
+                            <li><span class="text-term-green">-</span> Completed 480-hour internship at CDL Innovative IT Solutions (SEO, CMS, IT support)</li>
+                        </ul>
+                    </div>
+
+                    <!-- GitHub stats bar -->
+                    <div class="reveal bg-term-panel/60 p-5 rounded-lg border border-term-border">
+                        <h3 class="text-term-cyan font-bold mb-4 text-sm">&gt; github_stats // @jralexa</h3>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center text-sm">
+                            <div class="bg-term-bg/50 border border-term-border rounded p-3">
+                                <p class="text-term-green text-2xl font-extrabold">6</p>
+                                <p class="text-term-muted text-xs mt-1">public repos</p>
+                            </div>
+                            <div class="bg-term-bg/50 border border-term-border rounded p-3">
+                                <p class="text-term-green text-2xl font-extrabold">4</p>
+                                <p class="text-term-muted text-xs mt-1">projects contributed</p>
+                            </div>
+                            <div class="bg-term-bg/50 border border-term-border rounded p-3">
+                                <p class="text-term-green text-2xl font-extrabold">PHP</p>
+                                <p class="text-term-muted text-xs mt-1">primary language</p>
+                            </div>
+                            <div class="bg-term-bg/50 border border-term-border rounded p-3">
+                                <p class="text-term-green text-2xl font-extrabold">YES</p>
+                                <p class="text-term-muted text-xs mt-1">hireable</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -473,10 +551,11 @@
 
             /* ---------- Typing effect in hero ---------- */
             const roles = [
-                'Technical Problem Solver',
-                'Full-Stack Developer // Laravel + MySQL',
+                'Full-Stack Developer // Laravel + PHP',
+                'PDF Automation & Document Systems',
+                'Real-Time WebSocket Applications',
                 'Process Documentation Specialist',
-                'Digital Prototyping & Automation',
+                'Open to New Opportunities // Hireable',
             ];
             const target = document.getElementById('typed-role');
             let r = 0, c = 0, deleting = false;
